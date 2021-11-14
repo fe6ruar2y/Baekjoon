@@ -1,6 +1,4 @@
 #include <iostream>
-#include <string>
-
 using namespace std;
 
 int room(int a, int b) {
