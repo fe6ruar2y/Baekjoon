@@ -22,6 +22,5 @@ int main() {
 	for (int i = 0;i < t;i++) {
 		cin >> k >> n;
 		cout << room(k, n) << endl;
-	}
-	
+	}	
 }
