@@ -23,4 +23,5 @@ int main() {
 		cin >> k >> n;
 		cout << room(k, n) << endl;
 	}
+	
 }
