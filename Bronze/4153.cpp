@@ -19,6 +19,7 @@ int main(){
 			c = b;
 			b = temp;
 		}
+	    // a b c 순서 바뀌어도 피타고라스 식에 맞도록 해주기
         
         if((c*c) == (a*a) + (b*b)){
             cout << "right" << '\n';
