@@ -15,7 +15,7 @@ int main(){
     }
     else{
         cout << x2 << ' ';
-    }
+    } // x1 x2 x3 중에서 다른 숫자 하나를 언급해주기
 
     if(y1 == y2){
         cout << y3 << ' ';
@@ -25,6 +25,6 @@ int main(){
     }
     else{
         cout << y2 << ' ';
-    }
+    } //  y1 y2 y3 중에서 다른 숫자 하나를 언급해주기
     return 0;
 }
