@@ -5,7 +5,6 @@ int main(){
     int m,n; // 입력받을 수
     int count = 0; //나머지 갯수
     int result = 0;
-    int sum = 0; // 소수의 합
     int min = 0; // 최솟값
     cin >> m;
     cin >> n;
