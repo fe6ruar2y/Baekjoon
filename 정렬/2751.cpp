@@ -15,7 +15,7 @@ int main(){
         cin >> number[i];
     }
 
-    sort(number, number+n);
+    sort(number, number+n); // 오름차순 정렬
     for(int i=0; i<n; i++){
         cout << number[i] << '\n';
     }
