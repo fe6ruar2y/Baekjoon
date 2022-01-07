@@ -15,7 +15,6 @@ int main(){
         if(!number){
             break;
         }
-
         for(int i= number+1; i<= 2*number; i++){
             result = sqrt(i); // sqrt는 양의 제곱근을 반환하는 함수
             if(result == 1 && i != 1){
