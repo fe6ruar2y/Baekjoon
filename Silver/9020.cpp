@@ -33,7 +33,7 @@ int main(){
                 cout << j << " " << number - j << '\n';
                 break;
             }
-        }
+        } // number를 반으로 나눠서 소수인지 아닌지 구분
     }
     return 0;
 }
