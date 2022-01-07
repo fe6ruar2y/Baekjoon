@@ -32,9 +32,9 @@ int main(){
                     }
                 }
             } // 홀수일 경우
-        }
+        }    
+        cout << count << '\n';
+        count = 0;
     }
-    cout << count << '\n';
-    count = 0;
     return 0;
 }
