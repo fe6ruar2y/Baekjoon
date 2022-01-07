@@ -35,5 +35,6 @@ int main(){
         }
     }
     cout << count << '\n';
+    count = 0;
     return 0;
 }
