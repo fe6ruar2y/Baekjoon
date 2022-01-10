@@ -36,7 +36,7 @@ int main(){
     }
 
     float avg = sum / (float)n;
-    cout << round(avg) << '\n'; // 평균
+    cout << round(avg) << '\n'; // 평균 (소수 첫번째 반올림)
 
     sort(list.begin(), list.end());
     cout << list[list.size()/2] << '\n'; // 중앙값
