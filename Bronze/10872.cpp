@@ -6,7 +6,7 @@ int factorial(int n) {
 		return 1;
 	else
 		return n * factorial(n - 1);
-} // 함수 사용, n이 정수면 n 곱하기 n-1 반복
+} // 함수 사용, n이 정수면 n 곱하기 n-1
 
 int main() {
 	int n;
