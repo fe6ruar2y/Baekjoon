@@ -19,7 +19,7 @@ int main(){
             if(a%j == 0 && b%j == 0){
                 cout << a * (b/j) << '\n';
                 break;
-            }
+            } // a와 b의 최대공약수 구한 후 계산
         }
     }
     return 0;
