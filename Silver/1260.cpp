@@ -16,7 +16,7 @@ void pass(){
 
 void DFS(int v){ // 깊이 우선 탐색
     visited[v] = true;
-    cout << v << '\n';
+    cout << v << " ";
     
     for(int i=1; i<=n; i++){
         if(map[v][i] == 1 && visited[i] == 0){ // 현재 정점과 연결되어 있고 방문하지 않았을 경우
@@ -28,7 +28,7 @@ void DFS(int v){ // 깊이 우선 탐색
 void BFS(int v){ // 너비 우선 탐색
     q.push(v);
     visited[v] = true;
-    cout << v << '\n';
+    cout << v << " ";
 
     while(!q.empty()){
         v = q.front();
@@ -38,7 +38,7 @@ void BFS(int v){ // 너비 우선 탐색
             if(map[v][j] == 1 && visited[j] == 0){ // 현재 정점과 연결되어 있고 방문하지 않았을 경우
                 q.push(j);
                 visited[j] = true;
-                cout << j << '\n';
+                cout << j << " ";
             }
         }
     }
