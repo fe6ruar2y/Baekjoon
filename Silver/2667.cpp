@@ -48,7 +48,7 @@ int main(){
                 cnt = 0;
                 DFS(i, j);
                 v.push_back(cnt);
-            }
+            } // 범위 내에 있다면 카운트 초기화 후 깊이 우선 탐색 재귀, push_back으로 카운트 추가
         }
     }
 
